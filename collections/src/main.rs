@@ -3,7 +3,7 @@ use std::collections::{HashSet, HashMap};
 fn get_set_with_str(names: &[&str]) -> HashSet<String> {
     let mut set = HashSet::new();
 
-    for name in names.iter() {
+    for name in names {
         set.insert(name.to_string());
     }
     set
@@ -12,7 +12,7 @@ fn get_set_with_str(names: &[&str]) -> HashSet<String> {
 fn get_set_with_strslice<'a>(names: &[&'a str]) -> HashSet<&'a str> {
     let mut set = HashSet::new();
 
-    for name in names.iter() {
+    for name in names {
         set.insert(*name);
     }
     set
