@@ -1,0 +1,3 @@
+struct Graph {
+    id: String
+}
