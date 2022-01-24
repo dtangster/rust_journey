@@ -1,3 +1,6 @@
+#![allow(dead_code)]
+#![allow(unused_variables)]
+
 use std::collections::HashMap;
 
 /// Check if a combination of provided `numbers` can sum up to `target_sum`.

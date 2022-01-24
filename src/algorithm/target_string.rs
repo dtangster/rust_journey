@@ -1,3 +1,6 @@
+#![allow(dead_code)]
+#![allow(unused_variables)]
+
 use std::collections::HashMap;
 
 fn can_gen_str(target_str: &str, words: &[&str]) -> bool {
